@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PaulesHeartGame
+comment0.text=\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ HomeworkHamster.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=
+comment1.target=PaulesHeartGame()
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Schreiben\ Sie\ einen\ Algoritmus,\ der\ Paule\ ein\ Herz\ mit\ k\u00F6rnern\ legen\ l\u00E4sst.\n\ \n\ Hinweis\:\ In\ diesem\ Territorium\ hat\ Paule\ bereits\ 10\ K\u00F6rner\ im\ Maul.\n
+numComments=3

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PaulesNewFriendGame
+comment0.text=\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ HomeworkHamster.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=
+comment1.target=PaulesNewFriendGame()
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Helfe\ Paule\ um\ zu\ Paula\ zu\ kommen.\ \n\ Als\ kleines\ Geschenk\ f\u00FCr\ Paula\ soll\ Paule\ alle\ K\u00F6rner\ auf\ dem\ Territorium\ \n\ aufsammeln\ und\ diese\ zu\ Paula\ bringen.\ \n\ \n\ Ablauf\:\ \n\ 1.)\ Stellen\ Sie\ einen\ neuen\ Hamster\ Paula\ in\ der\ diagonal\ \n\ gegen\u00FCberliegenden\ Ecke\ von\ Paule.\n\ 2.)\ Lassen\ Sie\ Paule\ alle\ K\u00F6rner\ aufsammeln\n\ 3.)\ Lassen\ Sie\ Paule\ alle\ K\u00F6rner\ auf\ dem\ Feld\ von\ Paula\ ablegen\n\ 4.)\ Lassen\ Sie\ Paula\ alle\ K\u00F6rner\ aufsammeln.\n
+numComments=3
