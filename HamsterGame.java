@@ -1,5 +1,8 @@
 import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Location;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Territory;
+import java.io.IOException;
+import java.io.File;
+import java.io.*;
 /**
  * Beschreiben Sie hier die Klasse MyFirstSimpleHamster.
  * 
@@ -10,8 +13,16 @@ public class HamsterGame extends SimpleHamsterGame
 { 
     protected final Territory territory;
     
-    HamsterGame(String territoryPath){
-        game.initialize(territoryPath);
+    HamsterGame(String territoryPath) throws IOException {
+        File terFile = new File (territoryPath);
+        try(
+        InputStream targetStream = new FileInputStream(terFile);
+        ) {
+            game.initialize(targetStream);
+        } catch (IOException ex){
+            throw new RuntimeException(ex);
+        }
+        
         game.displayInNewGameWindow();  
         territory = game.getTerritory();
     }
@@ -22,7 +33,6 @@ public class HamsterGame extends SimpleHamsterGame
         } catch (final RuntimeException e) {
             this.game.getInputInterface().showAlert(e);
         }
-        stop();
     }
 
     private final void testAllGrainsInCave(){

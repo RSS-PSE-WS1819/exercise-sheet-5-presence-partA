@@ -2,6 +2,7 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Hamster;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Direction;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Location;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Territory;
+import java.io.IOException;
 
 /**
  * Beschreiben Sie hier die Klasse HomeworkHamster.
@@ -11,13 +12,13 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Territory;
  */
 public class PathFinderGame extends HamsterGame{
 
-    private static final String TER_PATHFINDER = "/territories/pathfinder.ter";
-    private static final String TER_PATHFINDER2 = "/territories/pathfinder2.ter";
-    private static final String TER_EMPTY = "/territories/empty.ter";
-    private static final String TER_WALLED = "/territories/walled.ter";
+    private static final String TER_PATHFINDER = "+libs/territories/pathfinder.ter";
+    private static final String TER_PATHFINDER2 = "+libs/territories/pathfinder2.ter";
+    private static final String TER_EMPTY = "+libs/territories/empty.ter";
+    private static final String TER_WALLED = "+libs/territories/walled.ter";
     
     
-    PathFinderGame(){
+    PathFinderGame() throws IOException {
         // Es stehen zwei weitere Territorien zur verfügung.
         // Falls Sie probleme mit dem ersten haben, testen Sie Ihren Algorithmus 
         // mit den anderen beiden 

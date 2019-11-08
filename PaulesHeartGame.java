@@ -2,6 +2,7 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Hamster;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Direction;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Location;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Territory;
+import java.io.IOException;
 
 /**
  * Beschreiben Sie hier die Klasse HomeworkHamster.
@@ -11,8 +12,8 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Territory;
  */
 public class PaulesHeartGame extends HamsterGame{
 
-    PaulesHeartGame(){
-        super("/territories/empty.ter");
+    PaulesHeartGame() throws IOException {
+        super("+libs/territories/empty.ter");
     }
     
     /*
@@ -22,8 +23,7 @@ public class PaulesHeartGame extends HamsterGame{
      */
     @Override
     protected void run(){
-       
+
     }
-    
     
 }
