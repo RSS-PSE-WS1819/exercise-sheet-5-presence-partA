@@ -14,7 +14,7 @@ import java.io.IOException;
 public class PaulesNewFriendGame extends HamsterGame {
 
 	PaulesNewFriendGame() throws IOException {
-		super("territories/territory-ub5.ter");
+		super("territories/territory-ub5-small.ter");
 	}
 
 	/*
