@@ -32,6 +32,7 @@ public class HamsterGame extends SimpleHamsterGame {
 		} catch (final RuntimeException e) {
 			this.game.getInputInterface().showAlert(e);
 		}
+		game.stopGame();
 	}
 
 	private final void testAllGrainsInCave() {

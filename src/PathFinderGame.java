@@ -42,7 +42,7 @@ public class PathFinderGame extends HamsterGame {
 	// ignore
 	public static void main(String[] args) {
 		try {
-			(new PathFinderGame()).run();
+			(new PathFinderGame()).testPaulesSkills();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

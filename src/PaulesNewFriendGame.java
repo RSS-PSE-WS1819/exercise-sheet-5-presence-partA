@@ -28,13 +28,12 @@ public class PaulesNewFriendGame extends HamsterGame {
 	 */
 	@Override
 	protected void run() {
-
 	}
 
 	// ignore
 	public static void main(String[] args) {
 		try {
-			(new PaulesNewFriendGame()).run();
+			(new PaulesNewFriendGame()).testPaulesSkills();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

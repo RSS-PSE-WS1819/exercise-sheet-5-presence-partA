@@ -30,7 +30,7 @@ public class PaulesHeartGame extends HamsterGame {
 	// ignore
 	public static void main(String[] args) {
 		try {
-			(new PaulesHeartGame()).run();
+			(new PaulesHeartGame()).testPaulesSkills();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
