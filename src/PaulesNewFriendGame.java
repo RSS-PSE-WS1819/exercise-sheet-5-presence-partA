@@ -27,7 +27,7 @@ public class PaulesNewFriendGame extends HamsterGame {
 	 * 4.) Lassen Sie Paula alle Körner aufsammeln.
 	 */
 	@Override
-	protected void run() {
+	void run() {
 	}
 
 	// ignore

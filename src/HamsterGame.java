@@ -12,7 +12,7 @@ import java.io.*;
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class HamsterGame extends SimpleHamsterGame {
-	protected final Territory territory;
+	Territory territory;
 
 	HamsterGame(String territoryPath) throws IOException {
 		File terFile = new File(territoryPath);
@@ -26,22 +26,13 @@ public class HamsterGame extends SimpleHamsterGame {
 		territory = game.getTerritory();
 	}
 
-	protected final void testPaulesSkills() {
+	void testPaulesSkills() {
 		try {
 			this.run();
 		} catch (final RuntimeException e) {
 			this.game.getInputInterface().showAlert(e);
 		}
 		game.stopGame();
-	}
-
-	private final void testAllGrainsInCave() {
-		Territory territory = game.getTerritory();
-		if (territory.getNumberOfGrainsAt(new Location(4, 6)) == territory.getTotalGrainCount() && paule.mouthEmpty()) {
-			paule.write("Wuhu geschafft!");
-		} else {
-			paule.write("Oh nein! Das hat wohl nicht geklappt");
-		}
 	}
 
 }

@@ -13,10 +13,10 @@ import java.io.IOException;
  */
 public class PathFinderGame extends HamsterGame {
 
-	private static final String TER_PATHFINDER = "territories/pathfinder.ter";
-	private static final String TER_PATHFINDER2 = "territories/pathfinder2.ter";
-	private static final String TER_EMPTY = "territories/empty.ter";
-	private static final String TER_WALLED = "territories/walled.ter";
+	static String TER_PATHFINDER = "territories/pathfinder.ter";
+	static String TER_PATHFINDER2 = "territories/pathfinder2.ter";
+	static String TER_EMPTY = "territories/empty.ter";
+	static String TER_WALLED = "territories/walled.ter";
 
 	PathFinderGame() throws IOException {
 		// Es stehen zwei weitere Territorien zur verfügung.
@@ -35,7 +35,7 @@ public class PathFinderGame extends HamsterGame {
 	 * Testen Sie Ihren Algorithmus auch mit anderen Territorien.
 	 */
 	@Override
-	protected void run() {
+	void run() {
 
 	}
 

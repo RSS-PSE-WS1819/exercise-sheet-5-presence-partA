@@ -23,7 +23,7 @@ public class PaulesHeartGame extends HamsterGame {
 	 * Hinweis: In diesem Territorium hat Paule bereits 10 Körner im Maul.
 	 */
 	@Override
-	protected void run() {
+	void run() {
 
 	}
 
