@@ -1,3 +1,4 @@
+package de.unistuttgart.iste.rss.oo.hamstersimulator;
 
 import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Hamster;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Direction;
